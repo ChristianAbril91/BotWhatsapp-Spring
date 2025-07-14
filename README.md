@@ -1,39 +1,23 @@
-📘 Descripción del Proyecto
+### 📘 Descripción del Proyecto
 BotWhatsapp es una API REST desarrollada en Java con Spring Boot, diseñada para permitir el envío de mensajes a través de un bot de WhatsApp de manera sencilla y escalable. Este proyecto fue creado como una práctica de desarrollo backend aplicando principios de arquitectura limpia, SOLID, e integración de capas desacopladas.
 
-🛠️ Tecnologías utilizadas
+### 🛠️ Tecnologías utilizadas
 Java 17
 
-Spring Boot
+Spring Boot | Spring Web (REST) | Maven | Lombok | Docker (opcional) | Postman (para pruebas)
 
-Spring Web (REST)
-
-Maven
-
-Lombok
-
-Docker (opcional)
-
-Postman (para pruebas)
-
-🧱 Arquitectura
+### 🧱 Arquitectura
 El proyecto sigue una arquitectura por capas y desacoplada:
 
-graphql
-Copiar
-Editar
 Controller → DTO → Service (Interface) → ServiceImpl → Util
 Controladores gestionan las solicitudes HTTP.
-
 DTOs estructuran los datos recibidos/enviados.
-
 Servicios encapsulan la lógica de negocio.
-
 Utilidades complementan funciones comunes o constantes.
 
 Esto permite mantener el código organizado, reutilizable y fácilmente testeable.
 
-🎯 Objetivos del Proyecto
+### 🎯 Objetivos del Proyecto
 Crear un API REST básica para enviar mensajes por WhatsApp.
 
 Implementar arquitectura limpia y principios SOLID.
